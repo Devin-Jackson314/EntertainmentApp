@@ -1,0 +1,14 @@
+@media(max-width: 375px){
+.search{
+    width: 257px;
+    background: #000000;
+    mix-blend-mode: normal;
+    color: Pure White;
+
+}
+.searchSvg{
+    position: relative;
+    top: 10px;
+
+}
+}
