@@ -1,0 +1,18 @@
+
+@media(min-width: 375px){
+.nav-svg-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #161D2F;
+
+}
+
+.img-responsive{
+    position: relative;
+    width: 24px;
+    height: 24px;
+
+   
+    box-sizing: border-box;
+}
+}
