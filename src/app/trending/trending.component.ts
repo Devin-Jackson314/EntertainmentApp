@@ -46,7 +46,7 @@ export class TrendingComponent implements OnInit {
       
       this.mediaOptions = data;
       console.log(this.mediaOptions);
-      console.log(this.mediaOptions[this.thumbnail]);
+      console.log(this.mediaOptions[0].thumbnail);
     })
   }
 
