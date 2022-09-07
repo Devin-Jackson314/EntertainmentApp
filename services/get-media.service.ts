@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Title } from '@angular/platform-browser';
 import { Observable } from 'rxjs';
 import { AllMedia } from 'src/app/classes/all-media';
 
@@ -11,12 +10,12 @@ import { AllMedia } from 'src/app/classes/all-media';
 })
 export class GetMediaService {
 
-  dataUrl = 'https://mediaplayer-d3beb-default-rtdb.firebaseio.com/';
+  dataUrl = 'https://mediaplayer-d3beb-default-rtdb.firebaseio.com/.json';
   jsonEXT ='.json'
 
   constructor(private http: HttpClient) { }
 
- getMedia(): Observable<any> {
+ getAllMedia(): Observable<any> {
     
    return this.http.get<AllMedia>(this.dataUrl);
   
@@ -24,5 +23,5 @@ export class GetMediaService {
  }
   
 }
- console.log(AllMedia);
+ //console.log(AllMedia);
 
