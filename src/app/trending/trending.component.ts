@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { GetMediaService } from '../services/get-media.service';
+
 
 @Component({
   selector: 'app-trending',
@@ -8,6 +11,9 @@ import { Component, OnInit } from '@angular/core';
 export class TrendingComponent implements OnInit {
 
   constructor() { }
+
+
+  mediaGetRequest: Observable<Media[]>
 
   ngOnInit(): void {
   }
