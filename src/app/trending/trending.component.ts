@@ -18,13 +18,17 @@ export class TrendingComponent implements OnInit {
   
   // mediaGetRequest = mediaService.GetMediaService().subscribe();
   //   console.log(this);
-
+  mediaOptions:any
    ngOnInit(): void{
     
    }
   
   GetMedia() {
-    return this.mediaService.
+    return this.mediaService.GetMediaService().subscribe(data =>{
+      this.mediaOptions = Object.keys(data).map(key => {
+        return{...data[key],uuid:key}
+      })
+    })
   }
 
 }
