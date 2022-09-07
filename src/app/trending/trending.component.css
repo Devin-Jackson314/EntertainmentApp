@@ -1,9 +1,18 @@
-p{
-font-family: 'Outfit';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 25px;
-letter-spacing: -0.3125px;
-color: #FFFFFF;
+@media (max-width: 375px){
+p {
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: -0.3125px;
+        color: #FFFFFF;
+    }
+
+
+
 }
+
+
+
+
