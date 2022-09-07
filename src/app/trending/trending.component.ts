@@ -20,7 +20,7 @@ export class TrendingComponent implements OnInit {
   mediaOptions: any;
   thumbnail: any;
   mediachoice: any;
-
+   small: any;
    ngOnInit(): void{
      this.GetMedia();
    }
@@ -30,26 +30,13 @@ export class TrendingComponent implements OnInit {
    
     return this.mediaService.getAllMedia().subscribe((data) => {
       
-      
-     // for (let thumbnail in mediaChoices) {
-       //thumbnail{} 
-       // console.log(thumbnail[1], 'this is the thumbnail');
-       //let trending = mediaChoices[thumbnail];
-        
-     // }
-       
-     // for (let key in data) {
-       // console.log(key);
-        
-        
-
-          // }
-      
       this.mediaOptions = data;
       console.log(this.mediaOptions);
       console.log(this.mediaOptions[0].thumbnail);
       this.mediachoice = this.mediaOptions[0].thumbnail;
       console.log(this.mediachoice.trending);
+      this.small = this.mediachoice.trending.small;
+      console.log(this.small);
     })
   }
 
