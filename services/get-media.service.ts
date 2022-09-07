@@ -15,9 +15,9 @@ export class GetMediaService {
 
   constructor(private http: HttpClient) { }
 
- getAllMedia(): Observable<any> {
+ getAllMedia() {
     
-   return this.http.get<AllMedia>(this.dataUrl);
+   return this.http.get('https://mediaplayer-d3beb-default-rtdb.firebaseio.com/.json');
   
    
  }

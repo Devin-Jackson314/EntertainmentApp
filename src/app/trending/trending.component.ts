@@ -1,8 +1,7 @@
-import { keyframes } from '@angular/animations';
-import { STRING_TYPE } from '@angular/compiler';
+
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { GetMediaService } from '../services/get-media.service';
+//import { GetMediaService } from '../services/get-media.service';
+import { GetMediaService } from 'services/get-media.service';
 
 
 @Component({
@@ -19,6 +18,7 @@ export class TrendingComponent implements OnInit {
   }
 
   mediaOptions: any;
+  thumbnail: any;
 
    ngOnInit(): void{
      this.GetMedia();
@@ -27,14 +27,27 @@ export class TrendingComponent implements OnInit {
   GetMedia() {
 
    
-    // return this.mediaService.getAllMedia().subscribe((data) =>{
-    //  // this.mediaOptions = Object.keys(data).map(key => {
-         
-    //     //return { ...data[key, uuid:key}
-    //  // })
-    //   this.mediaOptions = data;
-    //   console.log(this.mediaOptions);
-    // })
+    return this.mediaService.getAllMedia().subscribe((data) => {
+      
+      
+     // for (let thumbnail in mediaChoices) {
+       //thumbnail{} 
+       // console.log(thumbnail[1], 'this is the thumbnail');
+       //let trending = mediaChoices[thumbnail];
+        
+     // }
+       
+     // for (let key in data) {
+       // console.log(key);
+        
+        
+
+          // }
+      
+      this.mediaOptions = data;
+      console.log(this.mediaOptions);
+      console.log(this.mediaOptions[this.thumbnail]);
+    })
   }
 
 }
