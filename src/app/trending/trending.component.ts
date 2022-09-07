@@ -10,12 +10,14 @@ import { Media, GetMediaService } from '../services/get-media.service';
 })
 export class TrendingComponent implements OnInit {
   mediaGetRequest: Observable<Media[]>;
-  
+
   constructor(private mediaService: GetMediaService) {
     this.mediaGetRequest = this.mediaService.GetMediaService();
 
-    console.log(this);
+     console.log(TrendingComponent);
   }
+
+ 
 
 
  
