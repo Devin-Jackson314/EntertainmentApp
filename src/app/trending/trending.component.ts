@@ -13,7 +13,9 @@ export class TrendingComponent implements OnInit {
   
   constructor(private mediaService: GetMediaService) {
     this.mediaGetRequest = this.mediaService.GetMediaService();
-   }
+
+    console.log(this);
+  }
 
 
  
