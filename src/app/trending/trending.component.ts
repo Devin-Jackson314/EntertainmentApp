@@ -12,17 +12,14 @@ export class TrendingComponent implements OnInit {
   mediaGetRequest: Observable<Media[]>;
 
   constructor(private mediaService: GetMediaService) {
-    this.mediaGetRequest = this.mediaService.GetMediaService();
+    
 
-     console.log(TrendingComponent);
   }
+  mediaGetRequest = mediaService.GetMediaService().subscribe();
+    console.log(this);
 
- 
-
-
- 
-
-  ngOnInit(): void {
+   ngOnInit(): void{
+    
   }
 
 }
