@@ -16,7 +16,7 @@ export class TrendingComponent implements OnInit {
     
 
   }
-
+  image: any;
   mediaOptions: any;
   thumbnail: any;
   mediachoice: any;
@@ -37,6 +37,15 @@ export class TrendingComponent implements OnInit {
       console.log(this.mediachoice.trending);
       this.small = this.mediachoice.trending.small;
       console.log(this.small);
+
+      
+      this.image = document.createElement("img");
+      this.image.setAttribute("src", this.small);
+      this.image.setAttribute("height", "140px");
+      this.image.setAttribute("width", "240px");
+      this.image.setAttribute("alt", "image");
+      this.image.setAttribute("class", "img-responsive");
+      document.getElementsByClassName(".images").appendChild(this.image);
     })
   }
 
