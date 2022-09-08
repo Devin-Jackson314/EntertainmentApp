@@ -1,5 +1,7 @@
 @media (max-width: 375px){
-p {
+
+p  {        
+        position: relative;
         font-family: 'Outfit';
         font-style: normal;
         font-weight: 300;
@@ -8,6 +10,13 @@ p {
         letter-spacing: -0.3125px;
         color: #FFFFFF;
     }
+
+        div {
+            display: flex;
+            position: relative;
+            bottom: 20px;
+            overflow: hidden;
+        }
 
 
 
