@@ -45,7 +45,7 @@ export class TrendingComponent implements OnInit {
       this.image.setAttribute("width", "240px");
       this.image.setAttribute("alt", "image");
       this.image.setAttribute("class", "img-responsive");
-      document.getElementsByClassName(".images").appendChild(this.image);
+      document.getElementById("imagebox")?.appendChild(this.image);
     })
   }
 
