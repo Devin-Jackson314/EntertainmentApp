@@ -18,9 +18,20 @@ p  {
             overflow: hidden;
         }
 
+        svg{
+            position: absolute;
+            left: 210px;
+            width: 11.67px;
+            height: 14px;
+            top: 10px;
+            
+
+        }
 
 
 }
+
+
 
 
 
