@@ -24,6 +24,7 @@ export class TrendingComponent implements OnInit {
   small: any;
   mediachoice2: any;
   small2: any;
+  regular: any;
 
    ngOnInit(): void{
      this.GetMedia();
@@ -57,13 +58,18 @@ export class TrendingComponent implements OnInit {
       this.small2 = this.mediachoice2.trending.small;
       console.log(this.small2, "the targeted image");
       
-       this.image2 = document.createElement("img");
+      this.image2 = document.createElement("img");
       this.image2.setAttribute("src", this.small2);
       this.image2.setAttribute("height", "148px");
       this.image2.setAttribute("width", "240px");
       this.image2.setAttribute("alt", "image");
       this.image2.setAttribute("class", "img-responsive");
       document.getElementById("imagebox")?.appendChild(this.image2);
+
+      for (const i in data){
+        console.log(i,this.mediaOptions[0].thumbnail.regular.small,"second thumbnail reference");
+        this.regular = i + this.mediaOptions[0].thumbnail.regular.small;
+      }
     })
   }
 

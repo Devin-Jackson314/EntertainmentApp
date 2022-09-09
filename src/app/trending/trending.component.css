@@ -10,15 +10,51 @@ p  {
         letter-spacing: -0.3125px;
         color: #FFFFFF;
     }
+  h3{ position: relative;
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 25px;
+   letter-spacing: -0.3125px;
+   color: #FFFFFF;
+  }
 
+  .year{
+    position: relative;
+   
+        height: 15px;
+        width: 26px;
+        left: 0px;
+        top: 0px;
+        text-decoration: #FFFFFF;
+        left: 90px;
+        top: 60px;
+        
+
+  }
+
+  .movieCat{
+    left: 40px;
+  }
+
+  /*.movieSvg{
+   
+    position: absolute;
+    left: 130px;
+    bottom: 30px;
+  }*/
+
+ 
         div {
             display: flex;
             position: relative;
             bottom: 20px;
             overflow: hidden;
+           
         }
 
-        svg{
+        .bookmark{
             position: absolute;
             left: 210px;
             width: 11.67px;
@@ -29,9 +65,10 @@ p  {
         }
 
         .beyond{
-            position: absolute;
+            /*position: absolute;*/
             left: 10px;
             top: 90px;
+            left: 30px;
         }
 
 
