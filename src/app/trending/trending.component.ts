@@ -18,6 +18,7 @@ export class TrendingComponent implements OnInit {
   }
   image: any;
   image2: any;
+  images: any;
   mediaOptions: any;
   thumbnail: any;
   mediachoice: any;
@@ -66,9 +67,21 @@ export class TrendingComponent implements OnInit {
       this.image2.setAttribute("class", "img-responsive");
       document.getElementById("imagebox")?.appendChild(this.image2);
 
-      for (const i in data){
+      for (const i in data) {
+        console.log(this.mediaOptions[0].thumbnail.regular.small)
         console.log(i,this.mediaOptions[0].thumbnail.regular.small,"second thumbnail reference");
-        this.regular = i + this.mediaOptions[0].thumbnail.regular.small;
+        this.regular = this.mediaOptions[0].thumbnail.regular.small;
+        console.log(this.regular, "variable i saved the data in");
+          //if(this.mediaOptions[0])
+         this.images = document.createElement("img");
+         this.images.setAttribute("src", this.regular);
+         this.images.setAttribute("height", "110px");
+         this.images.setAttribute("width", "164px");
+         this.images.setAttribute("alt", "image");
+         this.images.setAttribute("class", "img-responsive");
+        document.getElementById("imagebox2")?.appendChild(this.images);
+
+
       }
     })
   }
