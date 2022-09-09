@@ -14,9 +14,22 @@
 
  <p>Recommended for You</p>
 
- <div id = "imagebox2">
+ <div id = "imagebox2" *ngFor = "let smallpic of regular">
 
-  
+      <div class="images2">
+
+        <div class="image"> 
+          <img src={{smallpic.small}}
+              class="img-responsive"
+              width="164px"
+              height="110px"
+              alt="media screenshots">
+
+        </div>
+
+      </div>
+
+
  </div>
 
 <div>
