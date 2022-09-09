@@ -1,5 +1,6 @@
 
-    <h3>Trending<h3>
+   <div>
+   <h3>Trending<h3>
     <br>
   <div id = "imagebox" class = "images">
     <svg class = "bookmark"width="12" height="14" xmlns="http://www.w3.org/2000/svg"><path d="m10.518.75.399 12.214-5.084-4.24-4.535 4.426L.75 1.036l9.768-.285Z" stroke="#FFF" stroke-width="1.5" fill="none"/></svg>
@@ -8,19 +9,19 @@
     <p class = "movieCat">Movie</p>
     <p class="beyond">BeyondEarth</p> -->
       </div>
-
+<div>
 
 
 
  <p>Recommended for You</p>
-
+<br>
  <div id = "imagebox2" *ngFor = "let smallpic of mediaOptions">
 
-      <div class="images2">
+      <div class="images-all">
 
         <div class="image"> 
           <img src= {{smallpic.thumbnail.regular.small}}
-              class="img-responsive"
+              class="recommended"
               width="164px"
               height="110px"
               alt="media screenshots">

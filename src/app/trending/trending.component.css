@@ -18,7 +18,10 @@ p  {
    line-height: 25px;
    letter-spacing: -0.3125px;
    color: #FFFFFF;
+   
+      
   }
+
 
   .year{
     position: relative;
@@ -44,8 +47,15 @@ p  {
     left: 130px;
     bottom: 30px;
   }*/
+.image{
 
- 
+
+  position: relative;
+
+}
+
+
+
         div {
             display: flex;
             position: relative;
