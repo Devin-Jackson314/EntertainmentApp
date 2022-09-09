@@ -1,7 +1,7 @@
 @media (max-width: 375px){
 
 p  {        
-        position: relative;
+       
         font-family: 'Outfit';
         font-style: normal;
         font-weight: 300;
@@ -10,7 +10,7 @@ p  {
         letter-spacing: -0.3125px;
         color: #FFFFFF;
     }
-  h3{ position: relative;
+  h3{ 
    font-family: 'Outfit';
    font-style: normal;
    font-weight: 300;
@@ -47,12 +47,12 @@ p  {
     left: 130px;
     bottom: 30px;
   }*/
-.image{
+.imagebox2{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
 
-
-  position: relative;
-
-}
+ }
 
 
 
@@ -65,7 +65,7 @@ p  {
         }
 
         .bookmark{
-            position: absolute;
+          
             left: 210px;
             width: 11.67px;
             height: 14px;
@@ -79,6 +79,10 @@ p  {
             left: 10px;
             top: 90px;
             left: 30px;
+        }
+
+        .image{
+          display: flex;
         }
 
 
