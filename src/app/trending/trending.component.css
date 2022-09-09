@@ -47,12 +47,11 @@ p  {
     left: 130px;
     bottom: 30px;
   }*/
-.imagebox2{
+ .imagebox2{
   display: flex;
   flex-wrap: wrap;
-  padding: 2px;
-
- }
+  justify-content: space-between;
+} 
 
 
 
