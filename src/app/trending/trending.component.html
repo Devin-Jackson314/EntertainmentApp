@@ -14,12 +14,12 @@
 
  <p>Recommended for You</p>
 
- <div id = "imagebox2" *ngFor = "let smallpic of regular">
+ <div id = "imagebox2" *ngFor = "let smallpic of mediaOptions">
 
       <div class="images2">
 
         <div class="image"> 
-          <img src={{smallpic.small}}
+          <img src= {{smallpic.thumbnail.regular.small}}
               class="img-responsive"
               width="164px"
               height="110px"
