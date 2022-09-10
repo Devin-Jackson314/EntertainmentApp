@@ -12,6 +12,7 @@ import { BookmarkedComponent } from './bookmarked/bookmarked.component';
 import { TrendingComponent } from './trending/trending.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GetMediaService } from 'services/get-media.service';
+import { MoviesPipe } from './movies.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { GetMediaService } from 'services/get-media.service';
     MoviesComponent,
     TvSeriesComponent,
     BookmarkedComponent,
-    TrendingComponent
+    TrendingComponent,
+    MoviesPipe
   ],
   imports: [
     BrowserModule,
