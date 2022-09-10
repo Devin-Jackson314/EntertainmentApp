@@ -15,6 +15,8 @@ import { GetMediaService } from 'services/get-media.service';
 import { FilterService } from './filter.service';
 import { SearchPipe } from './search.pipe';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,12 +27,16 @@ import { SearchPipe } from './search.pipe';
     TvSeriesComponent,
     BookmarkedComponent,
     TrendingComponent,
-    SearchPipe
+    SearchPipe,
+   
+      
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+   
   ],
   providers: [GetMediaService,
               FilterService

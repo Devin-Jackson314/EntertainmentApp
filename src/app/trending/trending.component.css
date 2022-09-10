@@ -1,5 +1,9 @@
 @media (max-width: 375px){
 
+  body{
+    background-color:#10141E ;
+  }
+
 p  {        
        
         font-family: 'Outfit';
