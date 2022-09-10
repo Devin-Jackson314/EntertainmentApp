@@ -2,6 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 //import { GetMediaService } from '../services/get-media.service';
 import { GetMediaService } from 'services/get-media.service';
+import { MoviesPipe } from '../movies.pipe';
 
 
 @Component({
@@ -29,6 +30,7 @@ export class TrendingComponent implements OnInit {
 
    ngOnInit(): void{
      this.GetMedia();
+   
    }
   
   GetMedia() {

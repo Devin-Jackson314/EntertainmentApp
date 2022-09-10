@@ -13,6 +13,7 @@ import { TrendingComponent } from './trending/trending.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GetMediaService } from 'services/get-media.service';
 import { FilterService } from './filter.service';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FilterService } from './filter.service';
     MoviesComponent,
     TvSeriesComponent,
     BookmarkedComponent,
-    TrendingComponent
+    TrendingComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
