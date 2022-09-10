@@ -12,7 +12,7 @@ import { BookmarkedComponent } from './bookmarked/bookmarked.component';
 import { TrendingComponent } from './trending/trending.component';
 import { HttpClientModule } from '@angular/common/http';
 import { GetMediaService } from 'services/get-media.service';
-import { MoviesPipe } from './movies.pipe';
+import { FilterService } from './filter.service';
 
 @NgModule({
   declarations: [
@@ -23,15 +23,16 @@ import { MoviesPipe } from './movies.pipe';
     MoviesComponent,
     TvSeriesComponent,
     BookmarkedComponent,
-    TrendingComponent,
-    MoviesPipe
+    TrendingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [GetMediaService],
+  providers: [GetMediaService,
+              FilterService
+              ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
