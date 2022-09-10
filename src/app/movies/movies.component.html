@@ -4,9 +4,9 @@
    
        <div class="images-all" *ngFor="let smallpic of mediaOptions">
 
-    <div class = "images" *ngIf="smallpic.category === 'Movie'">
+    <div class = "images" *ngIf="smallpic.category == 'Movie'">
             <div class="image">
-                 <img src="./assets/thumbnails/undiscovered-cities/regular/small.jpg" 
+                 <img src="{{smallpic.thubmnail.regular.small}}" 
                  alt="pics"
                  class="img-responsive"
                  width="164px"

@@ -2,7 +2,7 @@
 import { Component, OnInit } from '@angular/core';
 //import { GetMediaService } from '../services/get-media.service';
 import { GetMediaService } from 'services/get-media.service';
-import { MoviesPipe } from '../movies.pipe';
+
 
 
 @Component({
