@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GetMediaService } from 'services/get-media.service';
+import { MoviesPipe } from '../movies.pipe';
 
 @Component({
   selector: 'app-movies',
@@ -23,7 +24,7 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit(): void {
     this.GetMedia();
-    this.ViewContainerRef
+
 
   }
 
@@ -56,8 +57,6 @@ export class MoviesComponent implements OnInit {
     })
   }
 
-  ViewContainerRef() {
-   this.mediaOptions.thubmnail.regular.small
-  }
+ 
 
 }
