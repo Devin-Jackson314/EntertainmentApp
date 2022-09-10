@@ -23,6 +23,7 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit(): void {
     this.GetMedia();
+    this.ViewContainerRef
 
   }
 
@@ -53,6 +54,10 @@ export class MoviesComponent implements OnInit {
          this.regular = this.mediaOptions[0].thumbnail.regular.small;
      
     })
+  }
+
+  ViewContainerRef() {
+   this.mediaOptions.thubmnail.regular.small
   }
 
 }

@@ -1,11 +1,27 @@
-<section>
+
     <h3>Movies</h3>
 
-    <div id ="movieBox">
-       <ng-container let smallpic of mediaOptions>
+   
+       <ng-container class="images-all" *ngFor = "let smallpic of mediaOptions">
 
-    </ng-container>
+    <ng-template class = "images" *ngIf = "smallpic.category === 'Movie'">
+            <div class="image">
+                 <img src="{{smallpic.thubmnail.regular.small}}" 
+                 alt="pics"
+                 class="img-responsive"
+                 width="164px"
+                 height="110px">
+            </div>
+       
 
-    </div>
+     
+
+    </ng-template>
+          </ng-container>
+
+
+         
+
     
-</section>
+    
+
