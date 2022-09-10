@@ -51,6 +51,7 @@ p  {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-radius: 8px;
 } 
 
 
@@ -60,6 +61,7 @@ p  {
             position: relative;
             bottom: 20px;
             overflow: hidden;
+            justify-content: space-between;
            
         }
 
