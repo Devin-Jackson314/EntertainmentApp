@@ -1,0 +1,28 @@
+div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+   
+}
+
+.image{
+    display: flex;
+}
+
+.search {
+    position: relative;
+    width: 257px;
+    background: white;
+    mix-blend-mode: normal;
+    right: 30px;
+    top: 5px;
+
+
+}
+
+.searchSvg {
+    position: relative;
+    top: 5px;
+
+}
