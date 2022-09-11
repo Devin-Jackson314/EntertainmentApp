@@ -4,7 +4,7 @@
     <input class="search" id = "filter" type="text"  ng-model = "searchInput" placeholder= "Search for movies or TV series">
     </div>
     <br>
-    
+
    <div id="tvBox" class="tvImages">
        <div class="images-all"  >
 
@@ -19,8 +19,15 @@
                  width="164px"
                  height="110px">
 
-                
+                 
+                    <div class = desciption>
+          <p>{{tvPic.year}} {{tvPic.category}} {{tvPic.rating}}</p>
+          <h4>{{tvPic.title}}</h4>
+
+        </div>
        </div>
+
+
       </div>
             
 
