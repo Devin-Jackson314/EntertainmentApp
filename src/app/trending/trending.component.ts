@@ -5,6 +5,7 @@ import { GetMediaService } from 'services/get-media.service';
 
 
 
+
 @Component({
   selector: 'app-trending',
   templateUrl: './trending.component.html',

@@ -2,22 +2,30 @@
     <h3>Movies</h3>
 
    
-       <div class="images-all" *ngFor="let smallpic of mediaOptions">
+       <div class="images-all"  >
 
-    <div class = "images" *ngIf="smallpic.category == 'Movie'">
-            <div class="image">
-                 <img src="{{smallpic.thubmnail.regular.small}}" 
+    <div class = "images" >
+            <div class="image" *ngFor="let moviePic of mediaOptions ">
+
+<div *ngIf="moviePic.category === 'Movie'">
+
+  <img src="{{moviePic.thumbnail.regular.small}}" 
                  alt="pics"
                  class="img-responsive"
                  width="164px"
                  height="110px">
-            </div>
-       
 
-     
-
-        </div>
+                
        </div>
+      
+            
+
+     </div>
+
+       </div>
+
+
+       
 
 
          

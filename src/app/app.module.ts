@@ -14,7 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { GetMediaService } from 'services/get-media.service';
 import { FilterService } from './filter.service';
 import { SearchPipe } from './search.pipe';
-
+import { MoviesPipe } from './movies.pipe';
 
 
 @NgModule({
@@ -28,6 +28,7 @@ import { SearchPipe } from './search.pipe';
     BookmarkedComponent,
     TrendingComponent,
     SearchPipe,
+    MoviesPipe
    
       
     
@@ -39,7 +40,8 @@ import { SearchPipe } from './search.pipe';
    
   ],
   providers: [GetMediaService,
-              FilterService
+              FilterService,
+              MoviesPipe
               ],
   bootstrap: [AppComponent]
 })

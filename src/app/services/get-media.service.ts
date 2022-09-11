@@ -16,7 +16,7 @@ export class GetMediaService {
 
   GetMediaService() {
 
-    return this.http.get<Media[]>("https://mediaplayer-d3beb-default-rtdb.firebaseio.com/data.json");
+    return this.http.get("https://mediaplayer-d3beb-default-rtdb.firebaseio.com/data.json");
     
   }
 }
