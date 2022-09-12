@@ -1,0 +1,16 @@
+
+ <div id = "imagebox" class = "images" *ngFor = "let smallpic of mediaOptions">
+    
+    <div *ngIf="smallpic.isTrending === true">
+<div class="image"> 
+          <img src= {{smallpic.thumbnail.regular.small}}
+              class="recommended"
+              width="164px"
+              height="110px"
+              alt="media screenshots">
+        
+       
+
+        </div>
+        
+</div>

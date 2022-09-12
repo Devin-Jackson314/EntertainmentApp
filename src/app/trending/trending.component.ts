@@ -41,6 +41,11 @@ export class TrendingComponent implements OnInit {
       
       this.mediaOptions = data;
       console.log(this.mediaOptions, "this is all data");
+      // this.mediaOptions.
+      // let slides = [];
+      // slides.push(data);
+      // console.log(slides);
+
       // console.log(this.mediaOptions[0].thumbnail, "data inside targeted thumbnail");
       // this.mediachoice = this.mediaOptions[0].thumbnail;
       // console.log(this.mediachoice.trending);

@@ -15,6 +15,7 @@ import { GetMediaServiceseriously } from 'services/get-media.service';
 import { FilterService } from './filter.service';
 import { SearchPipe } from './search.pipe';
 import { MoviesPipe } from './movies.pipe';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { MoviesPipe } from './movies.pipe';
     BookmarkedComponent,
     TrendingComponent,
     SearchPipe,
-    MoviesPipe
+    MoviesPipe,
+    CarouselComponent
    
       
     
