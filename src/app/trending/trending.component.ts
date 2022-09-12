@@ -1,7 +1,7 @@
 
 import { Component, OnInit } from '@angular/core';
 //import { GetMediaService } from '../services/get-media.service';
-import { GetMediaService } from 'services/get-media.service';
+import { GetMediaServiceseriously } from 'services/get-media.service';
 
 
 
@@ -14,7 +14,7 @@ import { GetMediaService } from 'services/get-media.service';
 export class TrendingComponent implements OnInit {
   //mediaGetRequest: Observable<Media[]>;
 
-  constructor(private mediaService: GetMediaService) {
+  constructor(private mediaService: GetMediaServiceseriously) {
     
 
   }

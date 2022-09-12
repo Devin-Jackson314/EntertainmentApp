@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GetMediaService } from 'services/get-media.service';
+import { GetMediaServiceseriously } from 'services/get-media.service';
 
 @Component({
   selector: 'app-bookmarked',
@@ -8,7 +8,7 @@ import { GetMediaService } from 'services/get-media.service';
 })
 export class BookmarkedComponent implements OnInit {
 
-  constructor(private mediaService: GetMediaService) { }
+  constructor(private mediaService: GetMediaServiceseriously) { }
  mediaOptions: any;
   ngOnInit(): void {
     this.GetMedia();

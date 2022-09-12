@@ -11,7 +11,7 @@ import { TvSeriesComponent } from './tv-series/tv-series.component';
 import { BookmarkedComponent } from './bookmarked/bookmarked.component';
 import { TrendingComponent } from './trending/trending.component';
 import { HttpClientModule } from '@angular/common/http';
-import { GetMediaService } from 'services/get-media.service';
+import { GetMediaServiceseriously } from 'services/get-media.service';
 import { FilterService } from './filter.service';
 import { SearchPipe } from './search.pipe';
 import { MoviesPipe } from './movies.pipe';
@@ -39,7 +39,7 @@ import { MoviesPipe } from './movies.pipe';
     HttpClientModule,
    
   ],
-  providers: [GetMediaService,
+  providers: [GetMediaServiceseriously,
               FilterService,
               MoviesPipe
               ],
