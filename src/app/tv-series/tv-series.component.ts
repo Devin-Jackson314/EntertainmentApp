@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GetMediaServiceseriously } from 'services/get-media.service';
+import { SearchPipe } from '../search.pipe';
 
 @Component({
   selector: 'app-tv-series',
@@ -7,6 +8,8 @@ import { GetMediaServiceseriously } from 'services/get-media.service';
   styleUrls: ['./tv-series.component.css']
 })
 export class TvSeriesComponent implements OnInit {
+  public searchFilter: any = '';
+  
 
   constructor(private getmedia: GetMediaServiceseriously) { }
   mediaOptions: any;
@@ -20,6 +23,7 @@ export class TvSeriesComponent implements OnInit {
       
       this.mediaOptions = data;
       console.log(this.mediaOptions, "all data");
+      
     })
   
   

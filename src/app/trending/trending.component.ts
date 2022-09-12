@@ -18,6 +18,7 @@ export class TrendingComponent implements OnInit {
     
 
   }
+  searchFilter: any;
   image: any;
   image2: any;
   images: any;

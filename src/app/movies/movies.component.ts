@@ -11,6 +11,7 @@ import { GetMediaServiceseriously } from 'services/get-media.service';
 })
 export class MoviesComponent implements OnInit {
   indexOf: any;
+  public searchFilter: any = '';
  
 
   constructor(private getmedia: GetMediaServiceseriously,

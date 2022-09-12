@@ -15,6 +15,7 @@ p  {
         color: #FFFFFF;
     }
   h3{ 
+    position: relative;
    font-family: 'Outfit';
    font-style: normal;
    font-weight: 300;
@@ -22,7 +23,7 @@ p  {
    line-height: 25px;
    letter-spacing: -0.3125px;
    color: #FFFFFF;
-   
+   top: 30px;
       
   }
 
@@ -48,7 +49,7 @@ p  {
             display: flex;
             position: relative;
             bottom: 20px;
-            overflow: hidden;
+           
             justify-content: space-between;
            
         }
@@ -87,6 +88,11 @@ p  {
                   position: relative;
                   top: 5px;
         
+                }
+
+                .move {
+                  position: relative;
+                  top: 10px;
                 }
 
 

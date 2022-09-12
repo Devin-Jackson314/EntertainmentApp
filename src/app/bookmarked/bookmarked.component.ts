@@ -9,6 +9,7 @@ import { GetMediaServiceseriously } from 'services/get-media.service';
 export class BookmarkedComponent implements OnInit {
 
   constructor(private mediaService: GetMediaServiceseriously) { }
+ public searchFilter: any = '';
  mediaOptions: any;
   ngOnInit(): void {
     this.GetMedia();
