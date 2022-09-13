@@ -54,7 +54,7 @@ p  {
         color: #FFFFFF;
     }
   h3{ 
-    position: relative;
+  
    font-family: 'Outfit';
    font-style: normal;
    font-weight: 300;
@@ -74,23 +74,17 @@ p  {
 }
 
  .imagebox2{
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   border-radius: 8px;
+  bottom: -10px;
 }  
 
 
 
 
-        div {
-            display: flex;
-            position: relative;
-            bottom: 20px;
-           
-            justify-content: space-between;
-           
-        }
 
 
          .search {
@@ -116,6 +110,7 @@ p  {
                 }
 
 
+             
 }
 
 
