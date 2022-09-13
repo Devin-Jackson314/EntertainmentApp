@@ -1,3 +1,4 @@
+
 @media (max-width: 375px){
 
   body{
@@ -29,12 +30,6 @@ p  {
 
 
 
-  /*.movieSvg{
-   
-    position: absolute;
-    left: 130px;
-    bottom: 30px;
-  }*/
  .imagebox2{
   display: flex;
   flex-wrap: wrap;
@@ -54,26 +49,8 @@ p  {
            
         }
 
-        .bookmark{
-          
-            left: 210px;
-            width: 11.67px;
-            height: 14px;
-            top: 10px;
-            
 
-        }
-
-        .beyond{
-            /*position: absolute;*/
-            left: 10px;
-            top: 90px;
-            left: 30px;
-        }
-
-       
-
-                .search {
+         .search {
                   position: relative;
                   width: 257px;
                   background: white;
