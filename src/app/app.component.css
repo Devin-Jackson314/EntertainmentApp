@@ -1,4 +1,13 @@
-@media(max-width: 375px)
+@media (min-width: 1448px) {
+    body {
+        background-color: #10141E;
+        height: 2024px;
+        color: white;
+    }
+
+}
+
+@media(min-width: 375px)
 {
 body{
     background-color: #10141E;
@@ -7,11 +16,3 @@ body{
 }
 }
 
-@media (max-width: 1448px) {
-    body {
-            background-color: #10141E;
-            height: 2024px;
-            color: white;
-        }
-
-}

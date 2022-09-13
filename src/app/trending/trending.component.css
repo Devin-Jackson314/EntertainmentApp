@@ -1,5 +1,12 @@
+@media(min-width: 1448px) {
 
-@media (max-width: 375px){
+ 
+
+
+}
+
+
+@media (min-width: 375px){
 
   body{
     background-color:#10141E ;

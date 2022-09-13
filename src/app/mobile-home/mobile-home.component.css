@@ -1,3 +1,75 @@
+@media(min-width: 1448px) {
+       
+    .nav-svg-container {
+        position: relative;
+        display: block;
+        background-color: #161D2F;
+        float: left;
+        width: 96px;
+            height: 960px;
+          
+            
+        
+    } 
+    .logo{
+    position: relative;
+    width: 32px;
+    height: 25.6px;
+    left: 63.86px;
+    top: 67.41px;
+    left: 30px;
+    }
+
+    .home{
+        position: relative;
+        width: 20px;
+            height: 20px;
+          top: 130px;
+          left: 5px;
+           
+           
+    }
+
+    .movies{
+
+        position: relative;
+            width: 20px;
+            height: 20px;
+            top: 180px;
+            left: -15px;
+
+
+    }
+
+    .tv-series{
+        position: relative;
+            width: 20px;
+            height: 20px;
+            top: 220px;
+            left: -35px;
+    }
+
+    .bookmark{
+        position: relative;
+            width: 20px;
+            height: 20px;
+            top: 270px;
+            left: -55px;
+    }
+
+        .avatar{
+            position: relative;
+                width: 40px;
+                height: 40px;
+                top: 900px;
+                left: -80px;
+        }
+
+
+
+}
+
+
 
 
 
