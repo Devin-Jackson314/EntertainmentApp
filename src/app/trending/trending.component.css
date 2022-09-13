@@ -67,9 +67,9 @@ p  {
   }
 
 .imagebox {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+ 
+display: flex;
+  
   border-radius: 8px;
 }
 
@@ -92,22 +92,19 @@ p  {
                   width: 257px;
                   background: white;
                   mix-blend-mode: normal;
-                 right: 30px;
-                 top: 5px;
+                 right: -20px;
+                 top: -15px;
         
         
                 }
         
                 .searchSvg {
                   position: relative;
-                  top: 5px;
+                  top: -5px;
         
                 }
 
-                .move {
-                  position: relative;
-                  top: 10px;
-                }
+               
 
 
              
