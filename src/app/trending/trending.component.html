@@ -9,7 +9,7 @@
    
   
    
-   <h3>Trending<h3>
+   <h3 class="trending">Trending<h3>
     <br>
   <div id = "imagebox" class = "images" *ngFor = "let smallpic of mediaOptions">
     
@@ -36,15 +36,15 @@
       </div>
 
         
-        <h3 class="move">Recommended for You<h3>
+        <h3 class="Recommended">Recommended for You<h3>
             <br>
  <div class = "imagebox2" >
 
       <div class="images-all" *ngFor = "let smallpic of mediaOptions">
 
-       <div class="image"> 
+       <div class="image2"> 
           <img src= {{smallpic.thumbnail.regular.small}}
-              class="recommended"
+              class="recommended2"
               width="164px"
               height="110px"
               alt="media screenshots">

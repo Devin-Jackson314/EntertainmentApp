@@ -1,20 +1,47 @@
+@media(min-width: 1448px) {
+    .images {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
+    img {
+        width: 280px;
+        height: 174px;
+    }
 
-
-.search {
-    position: relative;
-    width: 257px;
-    background: white;
-    mix-blend-mode: normal;
-    right: -10px;
-    top: -10px;
 
 
 }
 
-.searchSvg {
-    position: relative;
-    top: -10px;
-    right: 5px;
+
+@media(min-width: 375px) {
+
+    .images {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+        .search {
+            position: relative;
+            width: 257px;
+            background: white;
+            mix-blend-mode: normal;
+            right: -10px;
+            top: -10px;
+    
+    
+        }
+    
+        .searchSvg {
+            position: relative;
+            top: -10px;
+            right: 5px;
+    
+        }
 
 }
+
+
+

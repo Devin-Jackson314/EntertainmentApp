@@ -1,0 +1,26 @@
+@media(min-width: 1448px) {
+.images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+img{
+   width: 280px; 
+   height: 174px;
+}
+   
+
+
+}
+
+
+@media(min-width: 375px) {
+
+    .images {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+   
+}

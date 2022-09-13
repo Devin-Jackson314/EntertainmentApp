@@ -1,6 +1,36 @@
 @media(min-width: 1448px) {
 
- 
+.trending{
+    position: relative;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    top: 30px;
+    height: 40px;
+
+  }
+
+  .Recommended{
+    font-family: 'Outfit';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: -0.5px;
+      color: #FFFFFF;
+      top: 30px;
+      height: 40px;
+  }
+
+    img{
+      display: flex;
+      width: 470px;
+        height: 230px;
+    }
 
 
 }
