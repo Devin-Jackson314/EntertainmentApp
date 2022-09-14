@@ -7,7 +7,9 @@ export class SearchPipe implements PipeTransform {
 
   transform(value: any, filterString: string, propName: string): any {
     let resultArray = [];
-    if (value.length === 0 || filterString ==='') {
+    console.log(value, 'before filter');
+    if (filterString === '' ) {
+      console.log(value, 'this is my value');
       return value;
     }
     for (const item of value) {
@@ -21,9 +23,11 @@ export class SearchPipe implements PipeTransform {
       }
       
     }
+    console.log(resultArray, "this my result array" );
       return resultArray;
     
-    }
+  }
+  
   }
 
 //| search: searchFilter: 'TV Series'

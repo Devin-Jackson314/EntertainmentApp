@@ -36,6 +36,13 @@
 
 }
 
+@media(min-width: 768px){
+  img{
+    width: 220px;
+    height: 192px;
+  }
+}
+
 
 @media (min-width: 375px){
 

@@ -2,7 +2,7 @@
  <div id = "imagebox" class = "images" *ngFor = "let smallpic of mediaOptions">
     
     <div *ngIf="smallpic.isTrending === true">
-<div class="image"> 
+<div class="container"> 
           <img src= {{smallpic.thumbnail.regular.small}}
               class="recommended"
               width="164px"

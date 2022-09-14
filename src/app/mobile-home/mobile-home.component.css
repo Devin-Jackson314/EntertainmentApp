@@ -69,7 +69,24 @@
 
 }
 
+@media(min-width: 768px) {
+    .nav-svg-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #161D2F;
+    
+        }
+    
+        .img-responsive {
+            position: relative;
+            width: 32px;
+            height: 32px;
+    
+    
+            box-sizing: border-box;
+        }
 
+}
 
 
 

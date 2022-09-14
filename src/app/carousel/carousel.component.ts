@@ -16,7 +16,7 @@ export class CarouselComponent implements OnInit {
 
   GetMedia() {
     return this.mediaService.getAllMedia().subscribe((data) => {
-      let slides = [];
+      
       this.mediaOptions = data;
       console.log(this.mediaOptions, "all data");
     })

@@ -27,7 +27,7 @@ export class GetMediaService {
 
   bookmarkToggle(status: boolean, theIndex: string) {
     let bookmarkUrl = `${this.fireBaseUrl}${theIndex}${this.jsonExt}`
-    console.log(bookmarkUrl);
+    //console.log(bookmarkUrl);
     return this.http.patch<any>(bookmarkUrl, { isBookmarked: status })
   }
 }
