@@ -26,13 +26,12 @@
     .search {
         position: relative;
         width: 257px;
-        background: white;
         mix-blend-mode: normal;
         right: -10px;
         top: -10px;
-
-
-    }
+        background: #10141E;
+        color: #FFFFFF;
+     }
 
     .searchSvg {
         position: relative;

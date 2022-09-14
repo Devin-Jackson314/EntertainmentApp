@@ -22,5 +22,17 @@ img{
             justify-content: space-between;
             flex-wrap: wrap;
         }
+
+                .search {
+                    position: relative;
+                    width: 257px;
+                    background: #10141E;
+                    mix-blend-mode: normal;
+                    right: -20px;
+                    top: -15px;
+        
+                    color: #FFFFFF;
+        
+                }
    
 }
